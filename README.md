@@ -25,6 +25,12 @@ wechat-article-monitor → 本仓库 md/、pdf/ → GitHub main
 
 人工补录评论的草稿、预览及发布功能尚未实现；将来确认发布的补录应同时持久化到本仓库，不应只修改网站生成文件。
 
+## 图片与网站缓存
+
+Markdown 中的图片链接沿用原始文件；网站生成的 WebP 图片、Astro 页面和评论 JSON 仍由 `tomcatTravel` 管理，不是本仓库的原始输入。克隆本仓库不等于获得完整离线图片包。请修改原始文章或经审核发布的补录数据，不要用网站生成文件反向覆盖原始归档。
+
+网站部署同时跟踪两个仓库；文章仓库更新不要求网站代码新增提交。可访问 [article-revision.txt](https://tomcattravel.com/article-revision.txt) 核对网站当前采用的文章 commit，不能仅凭 Git 推送成功就认定网站已更新。
+
 ## 初始迁移
 
 从 `tomczhang/tomcatTravel` 的 `a3e1ad0` 对应工作区迁移 **894 份 Markdown 和 1 份 DOCX**。完整源提交号及逐文件 SHA-256 见 [`migration-manifest.json`](./migration-manifest.json)。此清单仅记录初始迁移基线，后续修改以 Git 提交历史为准。
