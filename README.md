@@ -1,6 +1,36 @@
 # 微信文章归档
 
-独立保存微信公众号文章正文与评论，供采集工作台写入、[tomcattravel.com](https://tomcattravel.com) 只读构建。仓库名称为 `jinjiancheng-articles`，实际包含下列全部文章源，不仅限于金渐成。
+独立保存微信公众号文章正文与评论，供采集工作台写入、[tomcattravel.com](https://tomcattravel.com) 只读构建。同时包含面向 Vercel 的「天玑全集」静态阅读站。仓库名称为 `jinjiancheng-articles`，实际包含下列全部文章源，不仅限于金渐成。
+
+## 天玑全集静态阅读站
+
+阅读站仅收录 `md/天玑全集/`，当前 823 篇：金渐成 484 篇、天机奇谈 324 篇、生玑伯伯 15 篇。目录名作为公众号来源展示。所有文章生成独立页面，并提供关键词检索、公众号/年份筛选、原文链接和可展开的归档留言。多关键词以空格分隔，匹配全部关键词；可选仅标题、标题与正文、标题正文及留言。
+
+「投资理念」「育儿理念」「人生与成长」「商业与社会」共有 50 个展开主题，采用编辑归纳并附可点击的文章出处。四份 SVG 信息图放在对应栏目。总结内容由 `content/insights.mjs` 人工维护；文章更新会自动进入下次构建，但不会自动变成已经审核的理念结论。
+
+### 本地构建与预览
+
+需要 Node.js 20 或更高版本；预览命令使用 Python 3。
+
+```bash
+npm ci
+npm run build
+npm run preview
+```
+
+打开 `http://localhost:4173`。页面与检索数据生成在 `dist/`，不提交生成结果，也不改写源 Markdown。构建会核对每条理念出处必须唯一匹配一篇原文，引用标题或日期失效时会明确报错。
+
+### 部署到 Vercel
+
+导入本仓库，Root Directory 使用仓库根目录，Framework Preset 选择 **Other**。根目录 `vercel.json` 已指定：
+
+- Build Command：`npm run build`
+- Output Directory：`dist`
+- Install Command：`npm ci`（可沿用自动检测）
+
+部署结果全部为静态文件，无服务端函数、数据库或运行密钥。Git 新提交触发构建时会重新导入文章。构建行为依据 [Vercel 构建配置文档](https://vercel.com/docs/builds/configure-a-build)。
+
+首次正文检索在浏览器后台载入完整索引，后续检索复用已载入数据；仅标题检索无需载入全文。微信原图仍使用原始图床地址，图床失效或限制访问时不能保证图片继续可见。文章与评论的来源和权属说明见本文件末尾，发布者应确认其使用授权。
 
 ## 目录
 
@@ -31,7 +61,7 @@ wechat-article-monitor → 本仓库 md/、pdf/ → GitHub main
 
 ## 图片与网站缓存
 
-Markdown 中的图片链接沿用原始文件；网站生成的 WebP 图片、Astro 页面和评论 JSON 仍由 `tomcatTravel` 管理，不是本仓库的原始输入。克隆本仓库不等于获得完整离线图片包。请修改原始文章或经审核发布的补录数据，不要用网站生成文件反向覆盖原始归档。
+Markdown 中的图片链接沿用原始文件；`tomcatTravel` 生成的 WebP 图片、Astro 页面和评论 JSON 仍由 `tomcatTravel` 管理，不是本仓库的原始输入。克隆本仓库不等于获得完整离线图片包。请修改原始文章或经审核发布的补录数据，不要用网站生成文件反向覆盖原始归档。
 
 网站部署同时跟踪两个仓库；文章仓库更新不要求网站代码新增提交。可访问 [article-revision.txt](https://tomcattravel.com/article-revision.txt) 核对网站当前采用的文章 commit，不能仅凭 Git 推送成功就认定网站已更新。
 

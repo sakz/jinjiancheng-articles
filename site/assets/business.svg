@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc"><title id="title">商业：看清风险怎样产生</title><desc id="desc">企业的激励与权责影响行为和治理，继而影响现金与经营和风险结果，需要用三张表、制度与一线体验相互核对。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#72766c"/></marker></defs><style>text{font-family:'PingFang SC','Microsoft YaHei',sans-serif;fill:#292e29}.small{font-size:22px;fill:#72766c}.label{font-size:29px}.big{font-size:40px;font-family:'Songti SC',serif}.num{font-size:17px;fill:#72766c;letter-spacing:2px}.rule{fill:none;stroke:#c8cdbe;stroke-width:2}</style>
+<text x="50" y="55" class="num">04 / INCENTIVES &amp; REALITY</text><text x="50" y="112" class="big">看见表象下的运行结构。</text>
+<path d="M245 260H279 M480 260H514 M715 260H749" class="rule" marker-end="url(#arrow)"/>
+<rect x="50" y="168" width="195" height="184" rx="3" fill="#ece5d8"/><rect x="285" y="168" width="195" height="184" rx="3" fill="#e4eadc"/><rect x="520" y="168" width="195" height="184" rx="3" fill="#ece5d8"/><rect x="755" y="168" width="195" height="184" rx="3" fill="#ecdcd1"/>
+<text x="74" y="205" class="num">WHY</text><text x="74" y="262" class="label">激励与权责</text><text x="74" y="310" class="small">谁获益，谁承担</text>
+<text x="309" y="205" class="num">HOW</text><text x="309" y="262" class="label">行为与治理</text><text x="309" y="310" class="small">真正怎样做事情</text>
+<text x="544" y="205" class="num">CASH</text><text x="544" y="262" class="label">现金与经营</text><text x="544" y="310" class="small">能否持续运行</text>
+<text x="779" y="205" class="num">RESULT</text><text x="779" y="262" class="label">风险与结果</text><text x="779" y="310" class="small">代价落到哪里</text>
+<path d="M50 390H950" class="rule"/><text x="500" y="442" class="label" text-anchor="middle" style="fill:#426451">财务数据 × 责任机制 × 一线体验</text></svg>

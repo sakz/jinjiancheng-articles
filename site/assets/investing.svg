@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc"><title id="title">投资：认知与纪律的循环</title><desc id="desc">现金流、企业价值、预案仓位和时间复利，建立在风险控制的底座上。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#72766c"/></marker></defs><style>text{font-family:'PingFang SC','Microsoft YaHei',sans-serif;fill:#292e29}.small{font-size:22px;fill:#72766c}.label{font-size:29px}.big{font-size:40px;font-family:'Songti SC',serif}.num{font-size:17px;fill:#72766c;letter-spacing:2px}.rule{fill:none;stroke:#c8cdbe;stroke-width:2}</style>
+<text x="50" y="55" class="num">01 / CAPITAL &amp; CHOICE</text><text x="50" y="112" class="big">让每一次行动，都有余量。</text>
+<path d="M245 260H279 M480 260H514 M715 260H749" class="rule" marker-end="url(#arrow)"/>
+<rect x="50" y="168" width="195" height="184" rx="3" fill="#e4eadc"/><rect x="285" y="168" width="195" height="184" rx="3" fill="#ece5d8"/><rect x="520" y="168" width="195" height="184" rx="3" fill="#e4eadc"/><rect x="755" y="168" width="195" height="184" rx="3" fill="#ecdcd1"/>
+<text x="74" y="205" class="num">01</text><text x="74" y="262" class="label">现金流</text><text x="74" y="310" class="small">保留资金余量</text>
+<text x="309" y="205" class="num">02</text><text x="309" y="262" class="label">企业价值</text><text x="309" y="310" class="small">理解对象与价格</text>
+<text x="544" y="205" class="num">03</text><text x="544" y="262" class="label">预案与仓位</text><text x="544" y="310" class="small">条件到了再行动</text>
+<text x="779" y="205" class="num">04</text><text x="779" y="262" class="label">时间与复利</text><text x="779" y="310" class="small">耐心持有与复盘</text>
+<path d="M50 390H950" class="rule"/><text x="50" y="438" class="label" style="fill:#426451">风险控制贯穿全过程</text><text x="950" y="438" text-anchor="end" class="small">先守住基本盘</text></svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc"><title id="title">天玑全集理念地图</title><desc id="desc">围绕认知、选择与长期行动，连接投资、育儿、成长和商业。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#72766c"/></marker></defs><style>text{font-family:'PingFang SC','Microsoft YaHei',sans-serif;fill:#292e29}.small{font-size:22px;fill:#72766c}.label{font-size:29px}.big{font-size:40px;font-family:'Songti SC',serif}.num{font-size:17px;fill:#72766c;letter-spacing:2px}.rule{fill:none;stroke:#c8cdbe;stroke-width:2}</style>
+<path d="M500 130V190 M500 310V370 M320 250H400 M600 250H680" class="rule"/>
+<circle cx="500" cy="250" r="105" fill="#426451"/><circle cx="500" cy="250" r="85" fill="none" stroke="#768e72" stroke-width="1"/>
+<text x="500" y="244" text-anchor="middle" class="big" style="fill:#f8f5ef">认知与选择</text><text x="500" y="280" text-anchor="middle" class="small" style="fill:#dce6d5">长期行动的底色</text>
+<rect x="383" y="43" width="234" height="90" fill="#e3dccb"/><text x="500" y="100" text-anchor="middle" class="big">投资</text>
+<rect x="383" y="367" width="234" height="90" fill="#e1d0c2"/><text x="500" y="424" text-anchor="middle" class="big">育儿</text>
+<rect x="82" y="205" width="234" height="90" fill="#dbe3d1"/><text x="199" y="262" text-anchor="middle" class="big">成长</text>
+<rect x="684" y="205" width="234" height="90" fill="#e6e4d5"/><text x="801" y="262" text-anchor="middle" class="big">商业</text>
+<circle cx="290" cy="80" r="27" class="rule"/><circle cx="772" cy="399" r="36" class="rule"/><path d="M113 386h60v60h-60z M849 65l33 57h-66z" class="rule"/>
+<text x="54" y="50" class="num">FOUR WAYS</text><text x="950" y="477" text-anchor="end" class="num">ONE GROWING LIFE</text></svg>

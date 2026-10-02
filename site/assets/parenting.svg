@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc"><title id="title">育儿：从信任生长出独立</title><desc id="desc">尊重和信任支撑兴趣、财商实践、适度挑战，稳定的陪伴支持孩子逐步独立。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#72766c"/></marker></defs><style>text{font-family:'PingFang SC','Microsoft YaHei',sans-serif;fill:#292e29}.small{font-size:22px;fill:#72766c}.label{font-size:29px}.big{font-size:40px;font-family:'Songti SC',serif}.num{font-size:17px;fill:#72766c;letter-spacing:2px}.rule{fill:none;stroke:#c8cdbe;stroke-width:2}</style>
+<text x="50" y="55" class="num">02 / TRUST &amp; GROWTH</text><text x="50" y="112" class="big">从信任里，长出自己的力量。</text>
+<path d="M500 350V320 M185 290V315H815V290" class="rule"/>
+<rect x="65" y="160" width="240" height="130" fill="#e4eadc" rx="3"/><rect x="380" y="160" width="240" height="130" fill="#ece5d8" rx="3"/><rect x="695" y="160" width="240" height="130" fill="#ecdcd1" rx="3"/>
+<text x="185" y="209" class="label" text-anchor="middle">兴趣与乐趣</text><text x="185" y="254" class="small" text-anchor="middle">逐渐形成自驱力</text>
+<text x="500" y="209" class="label" text-anchor="middle">真实生活实践</text><text x="500" y="254" class="small" text-anchor="middle">理解金钱与责任</text>
+<text x="815" y="209" class="label" text-anchor="middle">适度挑战</text><text x="815" y="254" class="small" text-anchor="middle">积累耐心与韧性</text>
+<rect x="300" y="350" width="400" height="68" fill="#426451" rx="3"/><text x="500" y="396" class="label" text-anchor="middle" style="fill:#f8f5ef">尊重 · 信任 · 逐步独立</text>
+<text x="500" y="467" class="small" text-anchor="middle">土壤：情绪稳定的陪伴，清楚而可沟通的边界</text></svg>
