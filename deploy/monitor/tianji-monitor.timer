@@ -1,0 +1,11 @@
+[Unit]
+Description=Check Tianji articles every 30 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitInactiveSec=30min
+RandomizedDelaySec=60
+Unit=tianji-monitor.service
+
+[Install]
+WantedBy=timers.target

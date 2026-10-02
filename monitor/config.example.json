@@ -1,0 +1,13 @@
+{
+  "repo_path": "/srv/tianji/articles",
+  "state_dir": "/var/lib/tianji-monitor",
+  "branch": "main",
+  "remote": "origin",
+  "git_push": true,
+  "start_date": "2026-09-29",
+  "sources": [
+    { "account": "金渐成", "feed_url": "" },
+    { "account": "天机奇谈", "feed_url": "" },
+    { "account": "生玑伯伯", "feed_url": "" }
+  ]
+}

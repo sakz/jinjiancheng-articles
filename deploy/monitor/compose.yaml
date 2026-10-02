@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  werss:
+    image: ghcr.io/rachelos/we-mp-rss:latest@sha256:af771f21b3f7958a5dea16911fba050a6d7b92eac2fb2499c467c1b11f07ef34
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:8001:8001'
+    volumes:
+      - ./data:/app/data
+    environment:
+      TZ: Asia/Shanghai
+      USERNAME: admin
+      PASSWORD: '${WERSS_PASSWORD:?请在 .env 中设置 WERSS_PASSWORD}'
+      SECRET_KEY: '${WERSS_SECRET_KEY:?请在 .env 中设置 WERSS_SECRET_KEY}'
+      DB: sqlite:///./data/db.db
+      RSS_BASE_URL: http://127.0.0.1:8001/
+      RSS_LOCAL: 'False'
+      RSS_FULL_CONTEXT: 'True'
+      RSS_CDATA: 'False'
+      RSS_PAGE_SIZE: '100'
+      GATHER.CONTENT: 'True'
+      GATHER.CONTENT_AUTO_CHECK: 'True'
+      ENABLE_JOB: 'True'
+      EXPORT_PDF: 'False'

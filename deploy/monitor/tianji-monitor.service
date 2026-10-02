@@ -1,0 +1,19 @@
+[Unit]
+Description=Tianji WeChat articles archive monitor
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=tianji
+Group=tianji
+WorkingDirectory=/srv/tianji/articles
+ExecStart=/opt/tianji-monitor/tianji-monitor -config /etc/tianji-monitor/config.json
+Environment=GIT_TERMINAL_PROMPT=0
+UMask=0077
+TimeoutStartSec=12min
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/tianji/articles /var/lib/tianji-monitor
